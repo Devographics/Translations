@@ -1,0 +1,73 @@
+locale: en-US
+translations:
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.introduction
+      t: |
+          TODO
+
+    - key: sections.tshirt.introduction
+      t: |
+          TODO
+
+    - key: sections.demographics.introduction
+      t: |
+          TODO
+
+    - key: sections.features.introduction
+      t: |
+          TODO
+
+    - key: sections.layout.introduction
+      t: |
+          TODO
+
+    - key: sections.shapes_graphics.introduction
+      t: |
+          TODO
+
+    - key: sections.interactions.introduction
+      t: |
+          TODO
+
+    - key: sections.typography.introduction
+      t: |
+          TODO
+
+    - key: sections.animations_transforms.introduction
+      t: |
+          TODO
+
+    - key: sections.other_features.introduction
+      t: |
+          TODO
+
+    - key: sections.units_selectors.introduction
+      t: |
+          TODO
+
+    - key: sections.technologies.introduction
+      t: |
+          TODO
+
+    - key: sections.pre_post_processors.introduction
+      t: |
+          TODO
+
+    - key: sections.css_frameworks.introduction
+      t: |
+          TODO
+
+    - key: sections.css_methodologies.introduction
+      t: |
+          TODO
+
+    - key: sections.css_in_js.introduction
+      t: |
+          TODO
+
+    - key: sections.opinions.introduction
+      t: |
+          TODO

@@ -1,0 +1,292 @@
+locale: en-US
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: results.start
+      t: Start
+
+    - key: page.previous
+      t: 'Previous:'
+    - key: page.next
+      t: 'Next:'
+
+    - key: options.experience_ranking.satisfaction
+      t: Satisfaction
+    - key: options.experience_ranking.interest
+      t: Interest
+    - key: options.experience_ranking.awareness
+      t: Awareness
+
+    - key: options.features_simplified.know_it
+      t: Know about it
+    - key: options.features_simplified.used_it
+      t: Have used it
+    - key: options.features_simplified.usage_ratio
+      t: Usage ratio
+
+    - key: options.quadrant.assess
+      t: ASSESS
+    - key: options.quadrant.assess.long
+      t: |
+        ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+    - key: options.quadrant.adopt
+      t: ADOPT
+    - key: options.quadrant.adopt.long
+      t: |
+        ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+    - key: options.quadrant.avoid
+      t: AVOID
+    - key: options.quadrant.avoid.long
+      t: |
+        AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+    - key: options.quadrant.analyze
+      t: ANALYZE
+    - key: options.quadrant.analyze.long
+      t: |
+        ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.introduction.title
+      t: Introduction
+
+    - key: sections.demographics.title
+      t: Demographics
+    - key: sections.demographics.description
+      t: |
+          This year's State of JavaScript was the survey's fourth edition,
+          and it reached XX,XXX respondents.
+          It was interesting to see that despite few people identifying as
+          pure back-end developers, our respondents still feel quite comfortable
+          dealing with development on the server.
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.features.title
+      t: Features
+
+    - key: sections.technologies.title
+      t: Technologies
+
+    - key: sections.conclusion.title
+      t: Conclusion
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    - key: features.learn_more
+      t: Learn More (MDN)
+    - key: features.mdn_link
+      t: MDN
+    - key: features.caniuse_link
+      t: CanIUse
+    - key: features.specification_link
+      t: W3C Specification
+
+    ###########################################################################
+    # Tools & Methodologies
+    ###########################################################################
+
+    # general
+    - key: tools.links
+      t: Links
+    - key: tools.github_link
+      t: GitHub
+    - key: tools.github_stars
+      t: stars
+    - key: tools.homepage_link
+      t: Homepage
+    - key: tools.npm_link
+      t: NPM
+
+    ###########################################################################
+    # Blocks
+    ###########################################################################
+
+    # heatmaps
+    - key: blocks.tools_company_size_heatmap.title
+      t: Usage by Company Size
+    - key: blocks.tools_company_size_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents
+        who picked different company size ranges.
+
+    - key: blocks.tools_yearly_salary_heatmap.title
+      t: Usage by Salary Range
+    - key: blocks.tools_yearly_salary_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents
+        who picked different salary ranges.
+
+    - key: blocks.tools_years_of_experience_heatmap.title
+      t: Usage by Years Of Experience
+    - key: blocks.tools_years_of_experience_heatmap.description
+      t: |
+        For each technology, how usage is spread among respondents who picked different experience ranges.
+        Note that the experience in question here is general experience, not experience with a specific technology.
+
+    # tool
+    - key: blocks.entity.homepage_link
+      t: Homepage
+    - key: blocks.entity.github_link
+      t: GitHub
+
+    # tools quadrant
+    - key: blocks.tools_quadrant.title
+      t: Satisfaction vs Usage
+    - key: blocks.tools_quadrant.satisfaction.description
+      t: |
+        This chart shows each technology’s **satisfaction ratio** over its total **user count**.
+        It can be divided into four quadrants:
+
+          - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+
+          - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+
+          - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+
+          - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
+    - key: blocks.tools_quadrant.interest.description
+      t: |
+        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+
+        (Note that low user numbers can be due to either an unknown technology; or a technology with a lot of respondents already using it.)
+
+  # category other tools
+    - key: blocks.category_other_tools.title
+      t: Other Tools
+    - key: blocks.category_other_tools.description
+      t: Other tools in this category (freeform answers).
+
+    # tool experience
+    - key: blocks.tool_experience.title
+      t: ${name} Experience Over Time
+    - key: blocks.tool_experience.description
+      t: Respondent's experience with ${name}.
+
+    # tools section overview
+    - key: blocks.tools_section_overview.title
+      t: Category Overview
+    - key: blocks.tools_section_overview.description
+      t: |
+        Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
+        while lighter segments correspond to negative sentiment.
+
+    # tools experience ranking
+    - key: blocks.tools_experience_ranking.title
+      t: Rankings
+    - key: blocks.tools_experience_ranking.description
+      t: Awareness, interest, and satisfaction ratio rankings.
+
+    # happiness
+    - key: blocks.happiness.title
+      t: Overall Happiness
+    - key: blocks.happiness.description
+      t: |
+        On a scale of one (very unhappy) to five (very happy), how happy are developers
+        with the current overall state of this category?
+
+    # newsletter
+    - key: blocks.newsletter.title
+      t: Stay Tuned
+    - key: blocks.newsletter.description
+      t: |
+        If you'd like to know when we release additional results or announce next year's edition,
+        just leave us your email below:
+    - key: blocks.newsletter.email
+      t: Your Email
+    - key: blocks.newsletter.submit
+      t: Notify Me
+
+    # features_overview
+    - key: blocks.features_overview.title
+      t: Usage Overview
+    - key: blocks.features_overview.description
+      t: |
+        This chart presents the various adoption rates for all features, grouped by category.
+
+        The size of the <span class="text-teal-darker text-bold">outer circle</span>
+        corresponds to the total number of users who know about a feature, while
+        the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+
+        Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
+        representing the total number of survey respondents.
+
+  # export
+    - key: export.export
+      t: Export
+    - key: export.title
+      t: Export data for ${title}
+    - key: export.nocsv
+      t: Sorry, CSV export is not available for this dataset.
+    - key: export.graphql
+      t: >
+          You can copy paste this query into our <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a>.
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: chart_units.percentage
+      t: Percents
+    - key: chart_units.count
+      t: Count
+
+    - key: charts.axis_legends.years_of_experience
+      t: Years of Experience
+    - key: charts.axis_legends.yearly_salary
+      t: Salary Range (USD)
+    - key: charts.axis_legends.company_size
+      t: Number of Employees
+    - key: charts.axis_legends.backend_proficiency
+      t: Back-end Proficiency
+    - key: charts.axis_legends.css_proficiency
+      t: CSS Proficiency
+    - key: charts.axis_legends.javascript_proficiency
+      t: JavaScript Proficiency
+    - key: charts.axis_legends.users_percentage
+      t: Percentage of Users
+    - key: charts.axis_legends.users_count
+      t: User Count
+    - key: charts.axis_legends.interest_percentage
+      t: Interest Percentage
+    - key: charts.axis_legends.satisfaction_percentage
+      t: Satisfaction Percentage
+
+    ###########################################################################
+    # Sharing
+    ###########################################################################
+
+    - key: share.share
+      t: Share
+    - key: share.site.title
+      t: Discover the StateOf CSS 2020 results
+    - key: share.site.twitter_text
+      t: 'Discover the State Of CSS 2020 results ${link} #StateOfCSS'
+    - key: share.site.subject
+      t: State Of JavaScript Survey Results
+    - key: share.site.body
+      t: 'Here are some interesting CSS survey results: ${link}'
+    - key: share.block.twitter_text
+      t: '#StateOfCSS 2020: ${title} ${link}'
+    - key: share.block.subject
+      t: State Of CSS Survey Results
+    - key: share.block.body
+      t: 'Here are some interesting CSS survey results (${title}): ${link}'
+    - key: share.twitter
+      t: Share on Twitter
+    - key: share.facebook
+      t: Share on Facebook
+    - key: share.linkedin
+      t: Share on LinkedIn
+    - key: share.email
+      t: Share by email
+    - key: share.image
+      t: Get image
