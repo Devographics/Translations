@@ -71,7 +71,7 @@ translations:
       t: 目錄
     - key: general.all_questions_optional
       t: >
-          提醒：所有問題都不是必填，不一定得要達到 100% 完成度。
+          附註：所有問題都不是必填，不一定得要達到 100% 完成度。
     - key: general.data_is_saved
       t: 不管回到上一段還是跳到下一段，資料都有儲存起來。
 
@@ -155,6 +155,14 @@ translations:
     - key: options.features.used
       t: 👍 已經有用過
 
+    # features (no emoji)
+    - key: options.features.never_heard.label
+      t: 從未聽過/不確定是什麼
+    - key: options.features.heard.label
+      t: 知道是什麼，但從未用過
+    - key: options.features.used.label
+      t: 已經有用過
+
     # features (short versions)
     - key: options.features.never_heard.short
       t: 從未聽過
@@ -186,6 +194,18 @@ translations:
       t: 👍 用過 > 以後還會用
     - key: options.tools.would_not_use
       t: 👎 用過 > 以後不會用
+
+    # tools experience (no emoji)
+    - key: options.tools.never_heard.legend
+      t: 從未聽過/不確定是什麼
+    - key: options.tools.interested.legend
+      t: 有聽過 > 想學
+    - key: options.tools.not_interested.legend
+      t: 有聽過 > 沒興趣
+    - key: options.tools.would_use.legend
+      t: 用過 > 以後還會用
+    - key: options.tools.would_not_use.legend
+      t: 用過 > 以後不會用
 
     # tools experience (short versions)
     - key: options.tools.never_heard.short
@@ -289,7 +309,7 @@ translations:
 
     # salary
     - key: options.yearly_salary.range_work_for_free
-      t: 我做功德
+      t: 我免費做功德
     - key: options.yearly_salary.range_0_10
       t: $0k-$10k
     - key: options.yearly_salary.range_10_30
