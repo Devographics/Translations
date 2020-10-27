@@ -362,7 +362,7 @@ translations:
     - key: options.links_urls.any_link
       t: :any-link
     - key: options.links_urls.link_visited
-      t: :link and :visited
+      t: :link и :visited
     - key: options.links_urls.local_link
       t: :local-link
     - key: options.links_urls.target
